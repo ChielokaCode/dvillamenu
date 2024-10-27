@@ -24,7 +24,7 @@ const ViewDrink = () => {
   return (
     <>
       {/* Search box */}
-      <div className="items-center max-w-sm mx-auto mt-4">
+      <div className="items-center max-w-sm mx-auto mt-4 mr-2 ml-2">
         <h2 className="w-full items-center justify-center text-xl font-bold">
           Search for the drink
         </h2>
