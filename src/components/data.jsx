@@ -234,6 +234,141 @@ export const drinkList = [
     name: "Sprite",
     price: "N600",
   },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Amarula",
+    price: "N15000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Andre Rose",
+    price: "N15000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Flirt Vodka",
+    price: "N15000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Alvisa",
+    price: "N25000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "4th Street",
+    price: "N7000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Baron de Valls",
+    price: "N7000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Jameson Whiskey",
+    price: "N30,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Campari - Medium",
+    price: "N20,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Campari - Big",
+    price: "N25,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Carlo Rossi",
+    price: "N13,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Elliot",
+    price: "N17,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Eva Wine",
+    price: "N7,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Carlo Rossi",
+    price: "N13,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Hennessy VSOP",
+    price: "N150,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Jack Daniel",
+    price: "N35,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Joven",
+    price: "N13,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Kuemeline - Big",
+    price: "N12,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Best Cream - Big",
+    price: "N12,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Mc Dowells - Big",
+    price: "N12,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Royal Circle - Big",
+    price: "N12,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Magic Moment - Big",
+    price: "N12,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Meatus Rose",
+    price: "N20,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Moet - Brut/Rose",
+    price: "N60,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Night Train - Big",
+    price: "N15,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Red Label - Big",
+    price: "N25,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Remmy Martins",
+    price: "N60,000",
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "St. Remmy",
+    price: "N25,000",
+  },
 ];
 
 export const WinesList = [

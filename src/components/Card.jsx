@@ -14,7 +14,7 @@ const Card = ({ image, name, price }) => {
                 <img className="w-12 h-12" src={image} alt="Drink Image" />
               </div>
               <div className="flex-1 min-w-0 ms-4">
-                <p className="text-xl font-extrabold text-gray-900 truncate dark:text-white">
+                <p className="text-xl font-bold text-gray-900 truncate dark:text-white">
                   {name}
                 </p>
               </div>
