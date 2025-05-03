@@ -10,10 +10,10 @@ import { useRouter } from "next/router";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "About", href: "/", current: false },
   { name: "Room", href: "/", current: false },
   { name: "Hall", href: "/", current: false },
   { name: "Gym", href: "/", current: false },
+  { name: "About", href: "/", current: false },
 ];
 
 function classNames(...classes) {
@@ -51,7 +51,7 @@ const Header = () => {
                 alt=""
               />
               <h2 className="text-2xl font-bold tracking-tight text-white sm:text-2xl ">
-                <a href="https://pharmverify.vercel.app/" className="">
+                <a href="https://dvillamenu.com" className="">
                   D'VILLA MENU
                 </a>
               </h2>

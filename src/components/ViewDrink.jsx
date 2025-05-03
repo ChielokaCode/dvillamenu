@@ -6,13 +6,10 @@ const ViewDrink = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredDrinks = drinkList.filter((drink) => {
-    // Split the searchTerm into words
     const searchWords = searchTerm.toLowerCase().split(" ");
+    const drinkName = drink.name.toLowerCase();
 
-    // Check if each search word starts with the corresponding letter in drink.name
-    return searchWords.every((word, index) =>
-      drink.name.toLowerCase().startsWith(word)
-    );
+    return searchWords.every((word) => drinkName.includes(word));
   });
 
   // Function to handle search input change
@@ -24,9 +21,9 @@ const ViewDrink = () => {
   return (
     <>
       {/* Search box */}
-      <div className="items-center max-w-sm mx-auto mt-4 mr-2 ml-2">
+      <div className="items-center w-full mx-auto mt-4 mr-2 ml-2">
         <h2 className="w-full items-center justify-center text-xl font-bold">
-          Search for the drink
+          Search Drinks and Wines
         </h2>
         <SearchBox onSearch={handleSearch} />
       </div>
